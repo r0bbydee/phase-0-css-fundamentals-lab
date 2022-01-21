@@ -1,5 +1,34 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 10px;
+}
+
+h1 {text-align:center}
+figure {vertical-align: middle;
+  font-size: small;
+  justify-content: center;
+  position: relative;
+  left: -80px;}
+#figcaption {text-align: center;}
+nav a:link {background-color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;}
+ nav {text-align: center;}
+#featured-property {position: relative;
+                    left: 510px;
+                    text-align:center;
+                    vertical-align: center;
+                    max-width: 800px;}
+
+
+details {justify-content:center;}
+div {
+  float: left;
+  padding: 15px;
+  background-color: red;
+  text-align: center;
+  width: 430px;
+  padding-bottom: 100px;
+  min-height: 100%;
 }
